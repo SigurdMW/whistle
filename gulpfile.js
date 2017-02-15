@@ -15,3 +15,9 @@ gulp.task('styles', function() {
     .pipe(gulp.dest('./'))
     .pipe(notify({ message: 'Styles task complete' }));
 });
+
+gulp.task('watch', function() {
+
+  // Watch .scss files
+  gulp.watch('css/**/*.scss', ['styles']);
+});

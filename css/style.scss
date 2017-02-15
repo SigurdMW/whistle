@@ -1,1 +1,17 @@
-@import 'vendor/_underscores';
+// Comments required by wordpress theme
+@import '_theme-comments';
+
+// variables
+@import '_variables';
+
+// helpers
+@import '_helpers';
+
+
+// vendors
+@import 'vendor/_bootstrap';
+
+
+// partials
+@import '_main',
+				'_menu';
