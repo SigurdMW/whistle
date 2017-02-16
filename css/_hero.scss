@@ -1,0 +1,30 @@
+body.home {
+	& .hero-container {
+		width: 100%;
+		max-width: auto;
+		background-image: url("img/run.jpg");
+		background-size: cover;
+	}
+}
+
+.hero {
+	&__banner {
+		width: 100%;
+		max-width: 450px;
+		padding: 5rem 0;
+	
+		&-content {
+			padding:2rem 1rem;
+			margin-left:-1rem;
+			background-color:#fff;
+			border-radius: 2px;
+			box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+		}
+
+		& .brand-name {
+			display: block;
+			text-transform: uppercase;
+			font-size:1rem;
+		}
+	}
+}

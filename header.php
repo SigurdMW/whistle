@@ -21,19 +21,19 @@
 </head>
 
 <body <?php body_class(); ?>>
-<header>
-	<nav class="navbar navbar-toggleable-md navbar-light">
-	  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"">
-	  	<span class="sr-only"><?php bloginfo( 'name' ); ?></span>
-			<img src="<?php echo get_template_directory_uri(); ?>/img/logos/whistle_purple.png" class="navbar__logo" alt="home" />
-	  </a>
-
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	  	<a href="" class="ml-auto">Opprett bruker</a>
-	    <button>Logg in</button>
-	  </div>
+<header class="main-header">
+	<nav class="menu group">
+		<div class="container menu__container">
+		  <a class="menu__home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logos/whiste_logo_text_inline.svg" class="menu__logo" alt="home" />
+				<span class="sr-only"><?php bloginfo( 'name' ); ?></span>
+		  </a>
+		  <ul class="menu__right">
+				<li>
+					<button onclick="location.href='https://app.whistle.no/';" class="button login">Logg in</button>
+				</li>
+		  </ul>
+		</div>
 	</nav>
 </header>
+<div class="container hero-container">

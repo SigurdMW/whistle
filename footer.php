@@ -10,10 +10,11 @@
  */
 
 ?>
-
-	<footer class="site-footer" role="contentinfo">
+	
+</div><!-- / container -->
+	<!--<footer class="site-footer" role="contentinfo">
 		Footer
-	</footer><!-- #colophon -->
+	</footer> -->
 
 <?php wp_footer(); ?>
 

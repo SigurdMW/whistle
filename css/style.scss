@@ -9,9 +9,14 @@
 
 
 // vendors
-@import 'vendor/_bootstrap';
+@import 'vendor/_bootstrap-grid';
 
 
 // partials
 @import '_main',
-				'_menu';
+				'_menu',
+				'_buttons',
+				'_hero';
+
+// views 
+@import 'views/_front-page';

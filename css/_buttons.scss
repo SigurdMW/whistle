@@ -1,0 +1,44 @@
+.button {
+	border:none;
+	-webkit-apperance: none;
+	apperance: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	display: inline-block;
+  position: relative;
+  min-height: 36px;
+  min-width: 88px;
+  line-height: 36px;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 2px;
+  box-sizing: border-box;
+  user-select: none;
+  padding: 0 6px;
+  margin: 6px 0;
+  background: transparent;
+  color: currentColor;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-family: inherit;
+  text-decoration: none;
+  overflow: hidden;
+  transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+  &.login {
+		border: 1px solid rgb(57,73,171);
+		color: rgb(57,73,171);
+		box-shadow: none;
+  }
+
+  &.create-user {
+		background-color: rgb(57,73,171);
+		color: rgba(255,255,255,0.87);
+		padding: 0 1rem;
+	}
+}

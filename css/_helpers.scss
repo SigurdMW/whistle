@@ -8,3 +8,31 @@
   clip: rect(0,0,0,0);
   border: 0;
 }
+
+
+.pull-right {
+	float:right;
+}
+
+// clearfix hack
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.small {
+	font-size:0.8em;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.mt {
+	margin-top: 4rem;
+}
+
+.mb {
+	margin-bottom: 4rem;
+}
