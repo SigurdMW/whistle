@@ -16,6 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+<meta name="google-site-verification" content="U0wjnX6QFcnS9ZfI5IJWrF2HB9HawoqIVx2GweUego0" />
 
 <?php wp_head(); ?>
 </head>
