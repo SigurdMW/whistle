@@ -34,7 +34,7 @@ get_header(); ?>
 					<div class="row">
 						<div class="col-md-4">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/user.svg" alt="" />
-							<h2>Hold styr på kunder</h2>
+							<h2>Alle kunder på samme sted</h2>
 							<p>Legger du kundene inn i løsningen, får du en ryddig oversikt.</p>
 						</div>
 						<div class="col-md-4">
