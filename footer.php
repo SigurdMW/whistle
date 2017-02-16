@@ -12,9 +12,16 @@
 ?>
 	
 </div><!-- / container -->
-	<!--<footer class="site-footer" role="contentinfo">
-		Footer
-	</footer> -->
+
+<footer class="main-footer" role="contentinfo">
+	<section class="section">
+		<div class="container">
+			<?php
+				wp_nav_menu();
+			?>
+		</div>
+	</section>
+</footer>
 
 <?php wp_footer(); ?>
 

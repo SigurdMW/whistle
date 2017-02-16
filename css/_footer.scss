@@ -1,0 +1,18 @@
+.main-footer {
+	& ul {
+		list-style-type: none;
+		padding:0;margin:0;
+	}
+
+	& li {
+		display: inline-block;
+		width: 100%;
+		float: left;
+		text-align: center;
+		margin-bottom: 1rem;
+
+		@media screen and (min-width: $breakpoint-sm) {
+		  width: 33.33333%;
+		}
+	}
+}
