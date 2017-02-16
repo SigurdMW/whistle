@@ -30,7 +30,7 @@
 		  </a>
 		  <ul class="menu__right">
 				<li>
-					<button onclick="location.href='https://app.whistle.no/';" class="button login">Logg in</button>
+					<a href="https://app.whistle.no/" class="button login">Logg inn</a>
 				</li>
 		  </ul>
 		</div>
